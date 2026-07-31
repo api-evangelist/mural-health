@@ -1,9 +1,28 @@
 aid: mural-health
 name: Mural Health
-description: 'Mural Health is a company surfaced as a portfolio company of bessemer-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Mural Health is a clinical research technology company whose Mural Link platform manages
+  the clinical trial participant experience end to end. Founded by the team that created ClinCard,
+  Mural Health provides integrated participant payments across 10+ global methods (Venmo, PayPal,
+  Zelle, Revolut, bank transfer, virtual and physical prepaid debit cards, and check via mail), in-app
+  travel and rideshare coordination (Uber, Lyft), participant messaging and calendar syncing, and
+  real-time satisfaction analytics for research sites and sponsors. The company works with leading
+  pharmaceutical sponsors, CROs, and site networks to reduce trial dropout and administrative burden
+  across studies in 75+ countries, and is backed by Bessemer Venture Partners. Mural Health does not
+  currently publish a public API, developer portal, or SDKs; system integrations are delivered through
+  partnerships (e.g., ClinOne, Clinical Ink).'
 url: https://raw.githubusercontent.com/api-evangelist/mural-health/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/631b608bce6e7581e26ba3bc/68ed3f76917a46fad958c99e_og_mural-health.webp
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +31,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Healthcare
+- Clinical Trials
+- Clinical Research
+- Patient Engagement
+- Payments
+- Life Sciences
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/mural-health-domain-security.yml
 - type: Website
   url: https://www.muralhealth.com/
+- type: Blog
+  url: https://www.muralhealth.com/blog
+- type: Support
+  url: https://www.muralhealth.com/contact-us
+- type: HelpCenter
+  url: https://www.muralhealth.com/faq
+- type: PrivacyPolicy
+  url: https://www.muralhealth.com/privacy-policy
+- type: TermsOfService
+  url: https://www.muralhealth.com/terms-of-service
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
